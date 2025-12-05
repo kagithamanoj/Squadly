@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import api from '../api/axios';
-import { googleLogout, useGoogleLogin } from '@react-oauth/google';
+import { googleLogout } from '@react-oauth/google';
 
 interface User {
     _id: string;
@@ -45,20 +45,25 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const { data } = await api.post('/auth/login', { email, password });
         localStorage.setItem('token', data.token);
         setUser(data);
+        return data; // Return user data
     };
 
     const signup = async (name: string, email: string, password: string) => {
         const { data } = await api.post('/auth/signup', { name, email, password });
         localStorage.setItem('token', data.token);
         setUser(data);
+        return data; // Return user data
     };
 
     const googleLogin = async (token: string) => {
-        // This will be implemented once we have the backend endpoint
-        // const { data } = await api.post('/auth/google', { token });
-        // localStorage.setItem('token', data.token);
-        // setUser(data);
-        console.log('Google Token received:', token);
+        try {
+            const { data } = await api.post('/auth/google', { token });
+            localStorage.setItem('token', data.token);
+            setUser(data);
+        } catch (error: any) {
+            console.error('Google Login Error:', error.response?.data || error.message);
+            throw error;
+        }
     };
 
     const logout = () => {

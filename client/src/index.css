@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-950 antialiased font-sans selection:bg-primary-500/20 selection:text-primary-900;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-glass;
+  }
+  
+  .glass-card {
+    @apply bg-white rounded-2xl shadow-apple border border-gray-100 hover:shadow-apple-hover transition-all duration-300;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -10,14 +10,26 @@
     },
     "dependencies": {
         "@react-oauth/google": "^0.12.2",
+        "@types/leaflet": "^1.9.21",
         "axios": "^1.13.2",
+        "clsx": "^2.1.1",
+        "date-fns": "^4.1.0",
+        "framer-motion": "^12.23.25",
         "jwt-decode": "^4.0.0",
+        "leaflet": "^1.9.4",
         "lucide-react": "^0.294.0",
+        "papaparse": "^5.5.3",
+        "qrcode.react": "^4.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-router-dom": "^6.20.0"
+        "react-leaflet": "^4.2.1",
+        "react-router-dom": "^6.20.0",
+        "recharts": "^3.5.1",
+        "socket.io-client": "^4.8.1",
+        "tailwind-merge": "^3.4.0"
     },
     "devDependencies": {
+        "@types/papaparse": "^5.5.1",
         "@types/react": "^18.2.43",
         "@types/react-dom": "^18.2.17",
         "@vitejs/plugin-react": "^4.2.1",
