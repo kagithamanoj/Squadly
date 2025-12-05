@@ -1,0 +1,522 @@
+
+> squadly@1.0.0 dev
+> vite --port 3000
+
+
+  VITE v5.4.21  ready in 125 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+11:18:45 PM [vite] page reload src/components/layout/AppLayout.tsx
+11:18:47 PM [vite] page reload src/components/layout/AppLayout.tsx
+11:18:50 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:18:50 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:22:17 PM [vite] page reload src/components/layout/AppLayout.tsx
+11:23:14 PM [vite] hmr update /src/pages/AllExpensesPage.tsx, /src/index.css
+11:25:41 PM [vite] hmr update /src/components/expenses/AddExpenseModal.tsx, /src/index.css
+11:30:38 PM [vite] hmr update /src/pages/TravelPage.tsx, /src/index.css
+11:31:00 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:45 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:47 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:51 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:53 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:55 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:56 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:57 PM [vite] hmr update /src/pages/TripDetailsPage.tsx, /src/index.css
+11:33:58 PM [vite] ✨ new dependencies optimized: react-leaflet, leaflet
+11:33:58 PM [vite] ✨ optimized dependencies changed. reloading
+11:37:22 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:37:23 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:37:23 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:38:47 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:38:47 PM [vite] Pre-transform error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+11:38:48 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:38:48 PM [vite] Pre-transform error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+11:39:03 PM [vite] Internal server error: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx: Identifier 'Calendar' has already been declared. (14:4)
+
+  12 |     ShoppingCart,
+  13 |     Calendar,
+> 14 |     Calendar,
+     |     ^
+  15 |     Settings,
+  16 |     Users
+  17 | } from 'lucide-react';
+  Plugin: vite:react-babel
+  File: /Users/Manoj/NeuraSpark/Squadly/client/src/components/layout/Sidebar.tsx:14:4
+  12 |      ShoppingCart,
+  13 |      Calendar,
+  14 |      Calendar,
+     |      ^
+  15 |      Settings,
+  16 |      Users
+      at constructor (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.declareName (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:4895:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14342:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14499:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10205:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14478:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14318:37)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14311:17)
+      at TypeScriptParserMixin.parseImport (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9412:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12952:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:261:32)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:189:28
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:113:33
+      at step (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:287:14)
+      at /Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/Manoj/NeuraSpark/Squadly/client/node_modules/gensync/index.js:223:11)
+11:39:35 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:40:22 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css
+11:44:23 PM [vite] hmr update /src/components/travel/AirportAutocomplete.tsx, /src/index.css
+11:44:25 PM [vite] hmr update /src/components/travel/AirportAutocomplete.tsx, /src/index.css
+11:44:27 PM [vite] hmr update /src/pages/TravelPage.tsx, /src/index.css
+11:44:29 PM [vite] hmr update /src/pages/TravelPage.tsx, /src/index.css
+11:44:29 PM [vite] hmr update /src/pages/TravelPage.tsx, /src/index.css
+11:53:37 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/index.css

@@ -1,0 +1,49 @@
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (8) from .env -- tip: ⚙️  override existing env vars with { override: true }
+🚀 Server running on port 5001
+✅ MongoDB Connected
+[2025-12-02T06:00:58.672Z] OPTIONS /api/trips
+[2025-12-02T06:00:58.677Z] POST /api/trips
+Creating trip with body: {
+  name: 'sum',
+  origin: 'Dallas (DFW)',
+  destination: 'Denver (DEN)',
+  startDate: null,
+  endDate: null,
+  budget: 2000
+}
+User: new ObjectId('692e70eb1fa3bf4bbc4852d4')
+Trip data to save: {
+  name: 'sum',
+  origin: 'Dallas (DFW)',
+  destination: 'Denver (DEN)',
+  budget: 2000,
+  createdBy: new ObjectId('692e70eb1fa3bf4bbc4852d4'),
+  travelers: [ new ObjectId('692e70eb1fa3bf4bbc4852d4') ]
+}
+Trip created successfully: new ObjectId('692e809aaf3527196190e64f')
+[2025-12-02T06:00:58.814Z] GET /api/trips
+[2025-12-02T06:01:04.663Z] OPTIONS /api/auth/me
+[2025-12-02T06:01:04.664Z] OPTIONS /api/auth/me
+[2025-12-02T06:01:04.666Z] GET /api/auth/me
+[2025-12-02T06:01:04.769Z] GET /api/auth/me
+[2025-12-02T06:01:04.774Z] OPTIONS /api/trips
+[2025-12-02T06:01:04.775Z] OPTIONS /api/trips
+[2025-12-02T06:01:04.776Z] GET /api/trips
+[2025-12-02T06:01:04.928Z] GET /api/trips
+[2025-12-02T06:01:06.708Z] OPTIONS /api/trips/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.709Z] OPTIONS /api/expenses/trip/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.709Z] OPTIONS /api/trips/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.710Z] GET /api/expenses/trip/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.713Z] GET /api/trips/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.715Z] OPTIONS /api/expenses/trip/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.804Z] GET /api/expenses/trip/692e809aaf3527196190e64f
+[2025-12-02T06:01:06.863Z] GET /api/trips/692e809aaf3527196190e64f
